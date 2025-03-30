@@ -9,7 +9,10 @@ public class GitApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitApplication.class, args);
 		System.out.print("git merge");
+
 		System.out.print("git cnflit main");
+		System.out.print("git merge confilt master");
+
 		
 	}
 
