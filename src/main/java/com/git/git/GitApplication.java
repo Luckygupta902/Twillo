@@ -22,11 +22,13 @@ public class GitApplication {
 			boolean status=true;
 			if(i==0 || i==1) {
 				System.out.println("isPrime " +i);
+				continue;
 			}
 			else {
 			for(int j=2;j<i;j++) {
 				if(i%j==0) {
 					status=false;
+					break;
 				}
 			}
 			if(status==true) {
