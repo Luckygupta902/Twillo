@@ -37,8 +37,19 @@ public class GitApplication {
 		}
 		}
 			
-
+      int power=sc.nextInt();
+      int value=sc.nextInt();
+      int total= power(power,value);
+      System.out.print(total);
+      
 		
+	}
+	public static int power(int power,int value) {
+		if(power==0) {
+			return 1;
+		}
+		int ab=value *power(power-1,value);
+		return ab;
 	}
 
 }
