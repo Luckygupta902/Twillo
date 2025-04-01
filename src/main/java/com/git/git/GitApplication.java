@@ -36,11 +36,15 @@ public class GitApplication {
 			}
 		}
 		}
-			
+	//how to calculate the power		
       int power=sc.nextInt();
       int value=sc.nextInt();
       int total= power(power,value);
       System.out.print(total);
+     //how to remove duplicated element from array
+     int size= sc.nextInt();
+     int[] arr=new int[size];
+      removedDuplicated( arr);
       
 		
 	}
@@ -50,6 +54,10 @@ public class GitApplication {
 		}
 		int ab=value *power(power-1,value);
 		return ab;
+	}
+	public static void removedDuplicated(int[] arr) {
+		
+		
 	}
 
 }
