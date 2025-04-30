@@ -16,7 +16,8 @@ public class GitApplication {
 		System.out.print("git merge confilt master");
 		System.out.println("git on main branch");
 		System.out.print("Enter the input");
-		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the input1");
+        Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		for(int i=0;i<=a;i++) {
 			boolean status=true;
