@@ -17,6 +17,7 @@ public class GitApplication {
 		System.out.println("git on main branch");
 		System.out.print("Enter the input");
 		System.out.print("Enter the input1");
+		System.out.print("Enter the input1");
 
         Scanner sc=new Scanner(System.in);
 		
